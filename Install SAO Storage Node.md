@@ -27,6 +27,7 @@ git checkout v0.1.3
 make build
 #sudo cp ./saonode /usr/local/bin/ || exit
 #sudo cp ./saoclient /usr/local/bin/ || exit
+./saonode --chain-address https://rpc-testnet-node0.sao.network:443 init --creator sao1address
 ```
 
 ```
