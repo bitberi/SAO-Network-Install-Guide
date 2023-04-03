@@ -1,5 +1,5 @@
 # Install Storage Node for SAO Network
-The Storage Node is a component in the SAO network that allows you to provide storage for the blockchain. Storage Node will be rewarded based on contribution to the network
+The Storage Node is a component in the SAO Network that allows you to provide storage for the blockchain. Storage Node will be rewarded based on contribution to the network
 
 This Tutorial for SAO Storage Node Testnet v0.1.3 on Ubuntu 22.04 (Recommend-Tested), Ubuntu 20.04
 
@@ -187,6 +187,8 @@ If you are using a home network without a direct connection to the internet, by 
   
 * Next, check to make sure both you and the other party have opened the port. (can be checked at: https://www.yougetsignal.com/tools/open-ports/)
 If you've opened the Port and the other party doesn't open it, it's not your fault, and you don't need to worry about it. If otherwise they are open they may have blocked you because of too many failed connections
+
+* After solving the problem, restart the "saos" service and wait for other Nodes in the network to accept you again
   
 # 5. Remove Storage Node
 ```
@@ -196,4 +198,4 @@ rm -rf /usr/local/bin/saonode
 rm -rf /usr/local/bin/saoclient
 ```
 # The end !
-Tutorial By BitBeri.com
+A Tutorial By BitBeri.com
